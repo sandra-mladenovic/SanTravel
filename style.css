@@ -1,0 +1,468 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Signika Negative', sans-serif;
+}
+.cistac{
+	clear:both;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type:none;
+}
+.okvir{
+	width: 100%;
+}
+
+.tekstISlika{
+	width:100%;
+}
+#logo{
+	background-image: url('../slike/logo.jpg');
+	height:100px;
+	position:relative;
+	
+}
+#logo a{
+	width:100%;
+	position:absolute;
+	text-align:center;
+	color:#fff;
+	padding:2% 0%;
+	font-family: 'Courgette', cursive;
+	font-size:40px;
+}
+/*HEDER DOLE - navigacija */
+.stoPosto{
+	width:100%;
+	background-color:#f0efef;
+}
+.hederDole{
+	width:80%;
+	margin:0px auto;
+}
+
+#navigacija{
+	width: 60%;
+	float:left;
+	padding:2% 0%;
+}
+
+#navigacija ul li{
+	float:left;
+	text-align:center;
+	width:15%;
+	padding:0% 0.5%;
+}
+#navigacija ul li a{
+	color:#667292;
+	text-align: center;
+	font-size: 18px;
+}
+#navigacija ul li a:hover, .drustveneMreze a:hover{
+	color:#77a8a8;
+}
+.drustveneMreze{
+	width:20%;
+	float:right;
+	padding:2% 0%;
+	text-align:center;
+}
+.drustveneMreze a{
+	color: #667292;
+}
+.slideshow-blok{
+	width:100%;
+}
+
+.prikazi{
+	width:100%;
+	height: 400px;
+}
+
+
+/*SLAJDER*/
+#slike{
+	width:100%;
+	background-image: url('../slike/plaza.jpg');
+	height:500px;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+
+
+/*DINAMICKE LISTE*/
+.blokSaPutovanjima{
+	width:70%;
+	margin:0px auto;
+}
+.vertikalni-meni {
+    width:45%;
+	padding: 3% 0%;
+	
+}
+
+.vertikalni-meni a {
+    background-color: #eee;
+    color: #667292;
+    display: block;
+    padding:2% 5%;
+	
+}
+
+.vertikalni-meni a:hover {
+    background-color: #fff;
+}
+#podMeni .aPutovanja{
+	background-color: #034f84;
+	color:#fff;
+	text-align:center;
+	border-radius:4px;
+}
+.levo{
+	float:left;
+}
+.desno{
+	float:right;
+}
+#cene{
+	float:right;
+}
+/*FORMA*/
+
+.forma, .tekstIznadForme{
+	width:80%;
+	margin:0px auto;
+}
+.ikonica{
+	width:100%;
+	margin-top:5%;
+	border-top:1px solid #034f84;
+	color:#77a8a8;
+	padding:3% 0%;
+	text-align:center;
+	font-size:32px;
+}
+#nePropustite{
+	font-size:30px;
+	color:#034f84;
+	text-align:center;
+	font-family: 'Courgette', cursive;
+}
+#nekiTekst{
+	font-size:20px;
+	color:#034f84;
+	text-align:center;
+	padding-top:1.5%;
+	margin-bottom: 7%;
+	font-family: 'Courgette', cursive;
+}
+#tabela{
+	width:60%;
+	margin:0px auto;
+}
+.fa-user{
+	font-size:20px;
+	color:#034f84;
+}
+
+#tbEmail{
+	width:60%;
+	border:none;
+	border-bottom:1px solid #034f84;
+	margin-left:1%;
+}
+
+#tbPosalji{
+	width:20%;
+	padding:7px 10px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #77a8a8;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 3px #77a8a8;
+}
+#tbPosalji:hover{
+	background-color: #034f84;
+}
+#tbPosalji:active {
+  background-color: #034f84;
+  box-shadow: 0 3px #77a8a8;
+  transform: translateY(4px);
+}
+
+#emailIndexGreska{
+	width:40%;
+	text-align:center;
+	color:#FF0000;
+}
+/*FUTER*/
+.futer{
+	width:100%;
+	background-color:#f0efef;
+	margin-top: 3%;
+}
+.futer p{
+	text-align:center;
+	padding:2%;
+	color: #667292;
+}
+.futerDole a{
+	text-align:center;
+	width:50%;
+	float:right;
+	padding:1% 0%;
+	color: #667292;
+}
+/* PUTOVANJA */
+
+.plavo{
+	color:#034f84;
+	font-size:20px;
+}
+.svaPutovanja{
+	width:100%;
+}
+.putovanjaLevo{
+	width:50%;
+	float:left;
+}
+.blokPutovanja{
+	width:80%;
+	margin:0px auto;
+}
+
+
+
+.sadrzajDugmeta{
+	width:90%;
+	margin:0px auto;
+}
+.sadrzajDugmeta p{
+	text-align:justify;
+	padding-top:2%;
+}
+.putovanjaDesno{
+	width:50%;
+	float:right;
+}
+.zaSlike{
+	height:300px;
+	width:100%;
+	margin-top:7%;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+}
+.slikaMilano{
+	background-image:url('../slike/milano.jpg');
+	
+}
+.slikaKrakov{
+	background-image:url('../slike/krakov.jpg');
+	
+}
+.slikaIstanbul{
+	background-image:url('../slike/istanbul3.jpg');
+}
+.slikaAtina{
+	background-image:url('../slike/atina2.jpg');
+}
+.slikaBec{
+	background-image:url('../slike/bec.jpg');
+}
+.slikaPrag{
+	background-image:url('../slike/prag.jpg');
+}
+.slikaBukurest{
+	background-image:url('../slike/bukurest.jpg');
+}
+.slikaLisabon{
+	background-image:url('../slike/lisabon.jpg');
+}
+.slikaBarselona{
+	background-image:url('../slike/barselona.jpg');
+}
+.slikaMalta{
+	background-image:url('../slike/malta.jpg');
+}
+.slikaMoskva{
+	background-image:url('../slike/moskva.jpg');
+}
+.slikaHurgada{
+	background-image:url('../slike/hurgada.jpg');
+}
+.dugmeSredina{
+	width:100%;
+	text-align:center;
+}
+#tasterMilano, #tasterIstanbul, #tasterBec, #tasterBukurst, #tasterBarselona, #tasterHurgada, #tasterKrakov, #tasterAtina, #tasterPrag, #tasterLisabon,
+#tasterMalta, #tasterMoskva{
+	border: 1.5px solid #034f84;
+	padding:1% 2%;
+	border-radius:4px;
+	margin-top:1%;
+	background-color:#034f84;
+	color: #fff;
+
+}
+#tasterMilano:hover, #tasterIstanbul:hover, #tasterBec:hover, #tasterBukurst:hover, #tasterBarselona:hover, #tasterHurgada:hover, #tasterKrakov:hover,
+#tasterAtina:hover, #tasterPrag:hover, #tasterLisabon:hover,#tasterMalta:hover, #tasterMoskva:hover,.vertikalni-meni #prijava:hover{
+	background-color:#fff;
+	color:#034f84;
+}
+.dodatno{
+	width:100%;
+}
+#skrol{
+	width:2%;
+	float:right;
+	font-size:32px;
+}
+#back-to-top {
+	text-align: center;
+    line-height: 30px;
+	color:#034f84;
+}
+#back-to-top:hover{
+	color:#667292;
+}
+.show{
+	display:block;
+}
+/* O NAMA */
+#oNama{
+	font-family: 'Courgette', cursive;
+	color:#034f84;
+}
+.oNama {
+	padding:3%;
+}
+.vertikalni-meni #prijava{
+	width:15%;
+	text-align:center;
+	border: 1.5px solid #034f84;
+	padding:1% 2%;
+	border-radius:4px;
+	background-color:#034f84;
+	color: #fff;
+	
+}
+#slikaAutora{
+	width:45%;
+	background-image:url('../slike/autor.jpg');
+	height:300px;
+	background-repeat:no-repeat;
+	margin:2% auto;
+	border-radius:4px;
+}
+#slajderSaSlikama{
+	width:100%;
+}
+.dinSlike{
+	width:30%;
+	height:300px;
+	padding:0% 1.5%;
+	border-radius: 4px
+}
+/*kontakt*/
+
+.kontakt-forma, .forma{
+	width:90%;
+	margin:2% auto;
+}
+.form-group{
+	width:100%;
+	margin:0px auto;
+	padding:1%;
+	text-align:center;
+}
+ .podatak{
+	width:100%;
+	color:#000099;
+	font-size:18px;
+	text-align:center;
+	padding:4px;
+}
+.kolona,.form-control{
+	width:80%;
+	padding:6px;
+	color:#555;
+	border-radius:4px;
+	border-color:#fff;
+	margin:0px auto;
+}
+.btn{
+	width:50%;
+	padding:10px 0px;
+	font-size:18px;
+	text-align:center;
+	
+}
+.btn-default{
+	color:#FFF;
+	background-color:#034f84;
+	border-radius:4px;
+	border:1.5px solid #034f84;
+}
+.btn-default:hover{
+	color:#034f84;
+	background-color:#FFF;
+}
+#dan, #mesec, #godina {
+	border-radius:4px;
+}
+#greskaIme, #greskaEmail, #greskaPoruka{
+	width:80%;
+	margin:0px auto;
+	color: #FF0000;
+}
+#pKontakt, #pIndex, #pONama,#pOAutoru{
+	width:50%;
+	text-align:center;
+	position:relative;
+	top:30%;
+	margin:0px auto;
+	font-size: 34px;
+	color:#034f84;
+	background-color:rgb(255,255,255,0.8);
+	border-radius:4px;
+	padding: 2% 0%;
+	
+}
+.futerDole a:hover{
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
