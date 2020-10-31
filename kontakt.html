@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8"/>
+			<meta name="author" content="mailto:sandra.mladenovic.66.17@ict.edu.rs"/>
+			<meta name="copyright" content="2018. Sandra Mladenovic 66.17"/>
+			<meta name="keywords" content="kontakt,SanTravel" />
+			<meta name="description" content="Kontaktirajte nas, šaljite nam nove ideje za putovanja po celom Svetu!" />
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title>Kontakt | SanTravel  </title>
+	        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+			<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class = "okvir">
+		<!-- POCETAK HEDERA -->
+			<div class="heder">
+				<!-- lOGO -->
+				<div class="tekstISlika">
+					<div id ="logo" >
+						<h1><a href ="index.html">SanTravel </a></h1>
+					</div>
+				</div>
+				<!-- POCETAK HEDER DOLE U KOJEM JE NAVIGACIJA -->
+				<div class="stoPosto">
+				<div class ="hederDole">
+					<div id = "navigacija">
+							<div class="cistac"></div>
+					</div>
+					<div class="drustveneMreze">
+						<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						<a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+					</div>
+					</div>
+					<div class="cistac"></div>
+				</div>
+				<div class="cistac"></div>
+				<!-- KRAJ HEDERA SA NAVIGACIJOM-->
+			</div>
+			<!-- KRAJ HEDERA -->
+			<!-- SADRZAJ STRANICE  -->
+			<div class="sadrzaj">
+				<div id="slike"> <!-- JQUERY SLAJDER -->
+					<p id="pKontakt">Jednom godišnje, idite na neko mesto na kome nikada to tada niste bili</p>
+				</div>
+				<div class="kontakt-forma"> 
+				<form class="forma" action="#" method="get">
+					<div class="form-group">
+						<label class="podatak" >Ime:</label>
+						<div class="kolona">
+							<input type="text" class="form-control" id="ime" placeholder="Ime" name="ime">
+						</div>
+						<span id="greskaIme"></span>
+					</div>
+					<div class="form-group">
+						<label class="podatak " for="email">Email:</label>
+						<div class="kolona">
+							<input type="email" class="form-control" id="email" placeholder="Unesite emal adresu" name="email">
+						</div>
+						<span id="greskaEmail"></span>
+					</div>
+					<div class="form-group">
+						<label class="podatak">Datum rođenja:</label>
+						<div class="kolona">
+							<select id="dan"></select>
+							<select id="mesec"></select>
+							<select id="godina"></select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="podatak " >Naslov:</label>
+						<div class="kolona">
+							<input type="text" class="form-control" id="naslov" placeholder="Naslov" name="naslov">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="podatak " >Poruka:</label>
+						<div class="kolona">
+							<input type="text" class="form-control" id="poruka" placeholder="Poruka" name="poruka">
+						</div>
+						<span id="greskaPoruka"></span>
+					</div>
+					<div class="form-group">        
+						<div class="form-control">
+							<input type="button" class="btn btn-default" id="dugmeK" value="Pošalji"/>
+						 </div>
+					</div>
+					<div class="cistac"></div>
+				</form>
+				<div class="cistac"></div>
+			</div>
+			<div id="rez"></div>	
+				
+			
+			<div class="futer">
+				 <p>Sandra Mladenović 66/17</p>
+			</div>
+		</div>	
+		<script type = "text/javascript"  src = "assets/js/main.js">
+		</script>
+	</body>
+</html>

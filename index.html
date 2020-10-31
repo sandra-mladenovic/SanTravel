@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8"/>
+			<meta name="author" content="mailto:sandra.mladenovic.66.17@ict.edu.rs"/>
+			<meta name="copyright" content="2018. Sandra Mladenovic 66.17"/>
+			<meta name="keywords" content="SanTravel,putovanja" />
+			<meta name="description" content="SanTravel vam pruža mogućnost da uvek budete u toku sa najaktuelnijim putovanjima." />
+			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<title> SanTravel | Ideje za putovanja </title>
+	        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+			<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class = "okvir">
+		<!-- POCETAK HEDERA -->
+			<div class="heder">
+				<!-- lOGO -->
+				<div class="tekstISlika">
+					<div id ="logo" >
+						<h1><a href ="index.html">SanTravel </a></h1>
+					</div>
+				</div>
+				<!-- POCETAK HEDER DOLE U KOJEM JE NAVIGACIJA -->
+				<div class="stoPosto">
+					<div class ="hederDole">
+						<div id = "navigacija" >
+								
+							<div class="cistac"></div>
+						</div>
+						<div class="drustveneMreze">
+							<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+							<a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</div>
+					</div>
+					<div class="cistac"></div>
+				</div>
+				<div class="cistac"></div>
+				<!-- KRAJ HEDERA SA NAVIGACIJOM-->
+			</div>
+			<!-- KRAJ HEDERA -->
+			<!-- SADRZAJ STRANICE  -->
+			<div class="sadrzaj">
+				<div id="slike"> <!-- JQUERY SLAJDER -->
+					<p id="pIndex">Naša destinacija nikada nije mesto, već novi način posmatranja stvari</p>
+				</div>
+				
+				<!-- DINAMICKE LISTE  -->
+				<div class="blokSaPutovanjima">
+					<div class="vertikalni-meni levo" id="listaAktuelno"></div>
+					<div class="vertikalni-meni desno" id="listaNovaG"></div>
+				</div>
+				<div class="cistac"></div>
+			</div>
+			<div class="forma" id="prijava">
+				<div class="ikonica">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<div class="tekstIznadForme">
+					<h3 id="nePropustite">Budite u toku </h3>
+				</div>
+				<div class="tekstIznadForme">
+					<p id="nekiTekst">prijavite se ovde</p>
+				</div>
+				<div class="tekstIznadForme">
+						<table id="tabela">
+						<form action="#" method="get" id="formaIndex">
+							<div class="form-group">
+						<label class="podatak " for="email">Email:</label>
+						<div class="kolona">
+							<input type="email" class="form-control" id="tbEmail" placeholder="Unesite emal adresu" name="email">
+						</div>
+						<span id="greskaEmail"></span>
+					</div>
+					<div class="form-group">        
+						<div class="form-control">
+							<input type="button" class="btn btn-default" id="tbPosalji" value="Pošalji"/>
+						 </div>
+					</div>
+						</form>
+					</table>
+						<span id="emailIndexGreska"></span>
+				</div>
+
+			</div>
+			<div class="futer">
+				 <p>Sandra Mladenovic 66/17</p>
+			</div>
+			<div class=" futerDole">	
+				<a href="Dokumentacija6617.pdf">Dokumentacija</a>
+				<a href="oAutoru.html">O autoru</a>
+				
+			</div>
+		</div>	
+		<script type = "text/javascript"  src = "assets/js/main.js">
+		</script>
+	</body>
+</html>
